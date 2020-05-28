@@ -1,0 +1,63 @@
+\documentclass[sigconf, review, anonymous]{acmart}
+
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    \normalfont B\kern-0.5em{\scshape i\kern-0.25em b}\kern-0.8em\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\setcopyright{none}
+\copyrightyear{2020}
+\acmYear{2020}
+\acmConference[OOPSLA'20]{ACM Conference}{July 2020}{Washington, DC, USA}%
+
+% Commands
+\newcommand{\marginalia}[1]{\marginpar{\small\itshape\color{blue}#1}}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsthm, amsfonts}
+\usepackage{tikz}
+\usepackage{mathtools}
+% \usepackage{marginalia}
+%% disable NAs/fTBDs/TBDS
+\usepackage[hide=true]{marginalia}
+
+% Definitions
+\def\N{\ensuremath\mathbb{N}}
+\def\R{\ensuremath\mathbb{R}}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\newtheorem{example}{Example}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+%% This bit allows you to either specify only the files which you wish to
+%% process, or `all' to process all files which you \input.
+\ifx\files\all \typeout{Including all files.} \else \typeout{Including only \files.} \includeonly{\files} \fi
+
+\begin{abstract}
+    The abstract!
+\end{abstract}
+
+\begin{document}
+
+\title{TITLE}
+
+\author{Jesse Michel}
+\maketitle
+
+\input{sections/intro}
+% \input{sections/case_study}
+% \input{sections/semantics}
+% \input{sections/experiments}
+% \input{sections/related_work}
+% \input{sections/conclusions}
+% \appendix
+% \input{appa}
+% \input{appb}
+% \input{biblio}
+\end{document}
