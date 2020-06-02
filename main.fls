@@ -316,6 +316,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /home/jesse/latex-paper-template/sections/intro.tex
 INPUT /home/jesse/latex-paper-template/sections/intro.tex
+INPUT /home/jesse/latex-paper-template/main.bbl
+INPUT /home/jesse/latex-paper-template/main.bbl
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /home/jesse/latex-paper-template/main.aux
 INPUT /home/jesse/latex-paper-template/main.out

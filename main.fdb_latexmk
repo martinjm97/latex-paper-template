@@ -1,9 +1,16 @@
 # Fdb version 3
-["pdflatex"] 1590682809 "/home/jesse/latex-paper-template/main.tex" "/home/jesse/latex-paper-template/main.pdf" "main" 1590682809
+["bibtex main"] 1591127514 "main.aux" "main.bbl" "main" 1591127580
+  "./ACM-Reference-Format.bst" 1591126427 85225 d624603f315d3675749c8a889ebe6575 ""
+  "main.aux" 1591127580 1219 55994e562114384aa3ccc82499f0af2f "pdflatex"
+  "refs.bib" 1591127513 109 4e1cbba2efcc5ca74d09683bc3acb13c ""
+  (generated)
+  "main.blg"
+  "main.bbl"
+["pdflatex"] 1591127579 "/home/jesse/latex-paper-template/main.tex" "/home/jesse/latex-paper-template/main.pdf" "main" 1591127580
   "/etc/texmf/web2c/texmf.cnf" 1589132526 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/jesse/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk" 1587176505 8244 1403ec8f8a70eb175a02bd4be1e80be4 ""
-  "/home/jesse/latex-paper-template/main.aux" 1590682809 1079 18e13767a53b732107df8c76918468c2 ""
-  "/home/jesse/latex-paper-template/main.tex" 1590682808 1719 f819491144e7797afb88d2a81913edb9 ""
+  "/home/jesse/latex-paper-template/main.aux" 1591127580 1219 55994e562114384aa3ccc82499f0af2f ""
+  "/home/jesse/latex-paper-template/main.tex" 1591127579 1773 f812078212fae683f868dc102e9751d9 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm" 1136768653 1536 73da8e8f1d2a4c957d51ca133585586b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -196,15 +203,16 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1589134813 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1589134817 4879717 c4889c041a5fc1512991f31e462d78ec ""
   "acmart.cls" 1590625881 94683 52b01e77e43f35c7ae3ac9cba97ed2c7 ""
-  "main.aux" 1590682809 1079 18e13767a53b732107df8c76918468c2 "pdflatex"
-  "main.out" 1590682809 200 610cc6b9652203b46dd83ec3a4fd2400 "pdflatex"
-  "main.tex" 1590682808 1719 f819491144e7797afb88d2a81913edb9 ""
+  "main.aux" 1591127580 1219 55994e562114384aa3ccc82499f0af2f "pdflatex"
+  "main.bbl" 1591127514 1785 8ed37e936ba16de73718c10d329b7108 "bibtex main"
+  "main.out" 1591127580 294 070cf776902727d4575d76193eb6b45d "pdflatex"
+  "main.tex" 1591127579 1773 f812078212fae683f868dc102e9751d9 ""
   "marginalia.sty" 1590625881 2717 16362c432c804fa522e31c6f7046ce2c ""
   "sections/intro.tex" 1590682717 23 0724ce7a131568ad239c1aac91dfb03b ""
   (generated)
+  "main.aux"
+  "/home/jesse/latex-paper-template/main.log"
   "main.out"
   "/home/jesse/latex-paper-template/main.pdf"
-  "/home/jesse/latex-paper-template/main.log"
   "main.pdf"
-  "main.aux"
   "main.log"
